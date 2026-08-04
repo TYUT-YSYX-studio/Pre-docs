@@ -140,7 +140,7 @@ https://ysyx.oscc.cc/docs/ics-pa/PA0.html
 > [!WARNING]
 > 当你发现如下提醒时，阅读该讲义:https://ysyx.oscc.cc/docs/2407/e/3.html获取属于一生一芯的代码框架
 
-![图片为太原理工大学先进计算机系统实验室（ACSL）寒假研学拔高内容中关于“一生一芯”学习的提醒内容。背景为浅粉色，文字为深红色。内容提示参加“一生一芯”的同学，勿使用特定代码链接，PA讲义中关于作业提交的要求可忽略，但需关注“一生一芯”讲义中的提交要求。该图片与上下文紧密相关，是对参加“一生一芯”同学在学习过程中需注意的事项进行明确说明。](./static/JWTPbDYS3oo1ytxkiEPcl0Dfnxe.png)
+![](./static/JWTPbDYS3oo1ytxkiEPcl0Dfnxe.png)
 
 > [!NOTE]
 > <strong>难度这么高几乎无法完成，那拔高作业布置这么多是为什么？</strong>

@@ -2,7 +2,7 @@
 
 # VMware虚拟机安装VScode
 
-使用WSL的同学直接跳转到后方链接：链接-WSL。
+使用WSL的同学直接跳转到后方
 
 注意，这里的操作都要在你的虚拟机中进行。
 
@@ -14,7 +14,7 @@
     1. 普通用户选择这个：
 
     1. mac用户选这个：
-  ![](../static/TstRbhimHoEIPIxPPKVcxZm7n6b.png)
+      ![](../static/TstRbhimHoEIPIxPPKVcxZm7n6b.png)
 
 2. 在虚拟机完成deb包的下载
 
@@ -64,17 +64,17 @@
 > # <strong>阅读快捷键手册</strong>
 >
 > 和Shell类似，VScode也有自己的命令系统，你能通过命令把手册叫出来，按`F1`或`Ctrl + shift + P`即可使用。然后你需要输入`Help:Keyboard Shortcuts Reference`打开快捷键文档手册。
->
-> 你至少要学会以下快捷键：
->
-> - Ctrl+Shift+P 或者 F1    调出VScode的命令行
-> - Ctrl+`                        调出终端
-> - Ctrl+Click 或者 Ctrl+Alt+ ↑ / ↓     多行编辑
-> - Ctrl+S                        保存文件
-> - Ctrl+Z                        撤销
-> - Ctrl+Y                        撤销你的撤销(或许可以试试)
-> - Ctrl+W                       关掉当前窗口
-> - Ctrl+F                        当页搜索
-> - Ctrl+shift+F                全局搜索
->
-> 有些快捷键因为冲突原因已经不能使用，有的甚至不在手册中（这个手册只是简要版的，VScode全部快捷键比这多得多），所以在你记住前需要于VScode中实操一遍。如果你特别想要某个快捷键却无法使用，尝试通过<strong>STFW或RTFM</strong>修改VScode快捷键完成。
+
+你至少要学会以下快捷键：
+
+- Ctrl+Shift+P 或者 F1    调出VScode的命令行
+- Ctrl+`                        调出终端
+- Ctrl+Click 或者 Ctrl+Alt+ ↑ / ↓     多行编辑
+- Ctrl+S                        保存文件
+- Ctrl+Z                        撤销
+- Ctrl+Y                        撤销你的撤销(或许可以试试)
+- Ctrl+W                       关掉当前窗口
+- Ctrl+F                        当页搜索
+- Ctrl+shift+F                全局搜索
+
+有些快捷键因为冲突原因已经不能使用，有的甚至不在手册中（这个手册只是简要版的，VScode全部快捷键比这多得多），所以在你记住前需要于VScode中实操一遍。如果你特别想要某个快捷键却无法使用，尝试通过<strong>STFW或RTFM</strong>修改VScode快捷键完成。

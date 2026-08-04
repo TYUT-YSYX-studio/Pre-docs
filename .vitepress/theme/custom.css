@@ -1425,6 +1425,7 @@ html.is-homepage {
     var(--color-primary-100, #DCF3FE) 35%,
     var(--color-primary-200, #B8E7FF) 70%,
     var(--color-primary-300, #8FDAFF) 100%);
+  overflow-x: clip;
 }
 html.is-homepage.dark {
   background: linear-gradient(160deg,
@@ -1924,7 +1925,7 @@ html.is-homepage .pg-footer p { max-width: 960px; margin: 0 auto; }
 html.is-homepage #ft-container { display: none !important; }
 
 /* ═══ 27 桌面：与布局模型无关的垂直居中（核选项）═══ */
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   /* 确保 .hero 是绝对定位的参照系 */
   html.is-homepage .hero {
     position: relative !important;
@@ -1948,8 +1949,8 @@ html.is-homepage #ft-container { display: none !important; }
   }
 }
 
-/* ═══ 27 移动：取消 absolute，回归文档流堆叠 ═══ */
-@media (max-width: 767px) {
+/* ═══ 27 移动/平板：取消 absolute，回归文档流堆叠 ═══ */
+@media (max-width: 959px) {
   html.is-homepage .hero {
     display: flex !important;
     flex-direction: column;
@@ -1966,10 +1967,20 @@ html.is-homepage #ft-container { display: none !important; }
   }
 }
 
+@media (max-width: 767px) {
+  html.is-homepage .hero-mark {
+    display: none !important;
+  }
+}
+
 /* ── Logo 放大 2.5×（仅首页）── */
+/* 使用 width:100% + height:auto 让 logo 随卡片缩放，
+   避免固定 420px 高度导致卡片（506px）高于 hero（~491px）而顶到吸顶导航 / 压到 About */
 html.is-homepage .hero-mark img {
-  width: 420px !important;
-  height: 420px !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 420px;
+  max-height: 420px;
 }
 html.is-homepage .hero-mark {
   max-width: 460px !important;
@@ -1991,4 +2002,23 @@ html.is-homepage.dark .hero-mark img {
 }
 html.is-homepage .hero-mark {
   max-width: 380px !important;
+}
+
+/* ═══ 28 平板 768–959px：Logo 置中缩小，避免与左侧文字重叠 ═══ */
+@media (min-width: 768px) and (max-width: 959px) {
+  html.is-homepage .hero-mark {
+    position: static !important;
+    top: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+    order: 2;
+    margin-top: 2rem !important;
+    margin-bottom: 0 !important;
+    max-width: 240px !important;
+    align-self: center !important;
+  }
+  html.is-homepage .hero-mark img {
+    width: 240px !important;
+    height: 240px !important;
+  }
 }
