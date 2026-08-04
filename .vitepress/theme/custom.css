@@ -1454,6 +1454,10 @@ html.is-homepage .hero {
   backdrop-filter: none !important;
   -webkit-backdrop-filter: none !important;
   border-bottom: none !important;
+  /* 装饰圆（1200px / 360px）会横向溢出，把手机端布局视口撑到 ~840px，
+     用 overflow-x: clip 裁掉水平越界；overflow-y 保持 visible 保留垂直出血 */
+  overflow-x: clip;
+  overflow-y: visible;
 }
 
 /* ── 光晕替换为装饰几何 ── */
@@ -2020,5 +2024,41 @@ html.is-homepage .hero-mark {
   html.is-homepage .hero-mark img {
     width: 240px !important;
     height: 240px !important;
+  }
+}
+
+/* ═══ 29 移动端：徽章/CTA 防折行，避免小屏下换行难看 ═══ */
+
+/* ≤430px：overline 徽章缩小字号，尽量单行
+   （基础规则带 !important，这里必须同样加 !important 才能覆盖） */
+@media (max-width: 430px) {
+  html.is-homepage .hero-overline {
+    font-size: 11px !important;
+    letter-spacing: 0.04em !important;
+    padding: 4px 10px !important;
+  }
+}
+
+/* ≤414px：两个 CTA 按钮压缩内边距/字号并禁止换行，避免小屏换行难看 */
+@media (max-width: 414px) {
+  html.is-homepage .hero-links .link-arrow {
+    font-size: 16px !important;
+    padding: .55em 1em !important;
+    white-space: nowrap;
+  }
+}
+
+/* ≤340px：空间不足，改为纵向堆叠两个按钮，隐藏分隔符 */
+@media (max-width: 340px) {
+  html.is-homepage .hero-links {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+  html.is-homepage .hero-links .link-arrow {
+    justify-content: center;
+  }
+  html.is-homepage .hero-links .link-sep {
+    display: none;
   }
 }
