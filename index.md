@@ -14,7 +14,7 @@ head:
     <div class="hero-overline">太原理工大学 · 先进计算机系统研究实验室</div>
     <h1 class="hero-headline"><span class="accent">前置</span>讲义</h1>
     <p class="hero-body">
-      在"一生一芯"计划现有教学内容的基础上，结合太原理工大学课程培养方案，<br>为低年级、零基础学生设计循序渐进的前置学习路径。
+      为低年级、零基础学生设计循序渐进的CPU设计、计算机系统前置学习路径，<br>本届26新讲义请加入实验室获取学习，网站不进行收录。
     </p>
     <div class="hero-links">
       <a class="link-arrow" href="v2509/序">2509 版本<span class="arr">&rarr;</span></a>

@@ -49,4 +49,4 @@ npm run dev
 > 转载或使用时须注明所有者"太原理工大学一生一芯工作室"及 GitHub 仓库地址：https://github.com/TYUT-YSYX-studio/Pre-docs
 > 如需进行二次创作，请以相同许可协议（CC BY-SA 4.0）开源
 
-第二期前置讲义，敬请期待。
+第二期前置讲义已完成上传，本届26讲义请加入实验室获取。
