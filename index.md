@@ -41,10 +41,10 @@ head:
     <div class="about-links">
       <h2 class="about-heading">相关链接</h2>
       <ul>
+        <li><a href="https://mp.weixin.qq.com/s/i6qhU0-_IUjCF0boA-4Abg" target="_blank">2026年 招新正在进行中！</a></li>
+        <li><a href="https://mp.weixin.qq.com/s/1XWkrVCyRk0QoKKaCmXNxQ" target="_blank">2025年 招新相关信息</a></li>
         <li><a href="https://mp.weixin.qq.com/s/n5LLUQzq49h1lqLF4oNsig" target="_blank">"一生一芯"工作室成立详情</a></li>
-        <li><a href="https://mp.weixin.qq.com/s/1XWkrVCyRk0QoKKaCmXNxQ" target="_blank">第二期招新相关信息</a></li>
         <li><a href="https://ysyx.oscc.cc/" target="_blank">"一生一芯"计划官网</a></li>
-        <li><a href="https://github.com/TYUT-YSYX-studio/Pre-docs" target="_blank">GitHub 项目仓库</a></li>
       </ul>
     </div>
   </div>
