@@ -2,13 +2,13 @@
 
 <p align="center">
   <a href="https://tyut-ysyx-studio.github.io/Pre-docs/"><img src="https://img.shields.io/badge/站点-在线访问-5C73E7?logo=vitepress&logoColor=white" alt="在线访问"></a>
-  <a href="https://github.com/TYUT-YSYX-studio/Pre-docs/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey?logo=creativecommons&logoColor=white" alt="License"></a>
+  <a href="https://github.com/TYUT-YSYX-studio/Pre-docs/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?logo=creativecommons&logoColor=white" alt="License"></a>
   <img src="https://img.shields.io/badge/VitePress-1.6.3-5C73E7?logo=vitepress&logoColor=white" alt="VitePress">
   <img src="https://img.shields.io/badge/Deploy-GitHub%20Pages-222222?logo=githubpages&logoColor=white" alt="GitHub Pages">
   <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?logo=git&logoColor=white" alt="PRs Welcome"></a>
 </p>
 
-本作品由 ***许鹏远及后续核心负责人*** 共同创作，采用 CC BY-SA 4.0 协议授权。
+本作品由 ***许鹏远及后续核心负责人*** 共同创作，采用 CC BY-NC-SA 4.0 协议授权。
 
 ## 在线地址
 
@@ -45,8 +45,8 @@ npm run dev
 详细的贡献流程、分支命名规范和 Commit 格式，请参阅 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
 > [!CAUTION]
-> 本文档采用 CC BY-SA 4.0 协议：https://creativecommons.org/licenses/by-sa/4.0/deed.en
+> 本文档采用 CC BY-NC-SA 4.0 协议：https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
 > 转载或使用时须注明所有者"太原理工大学一生一芯工作室"及 GitHub 仓库地址：https://github.com/TYUT-YSYX-studio/Pre-docs
-> 如需进行二次创作，请以相同许可协议（CC BY-SA 4.0）开源
+> 如需进行二次创作，请以相同许可协议（CC BY-NC-SA 4.0）开源
 
 第二期前置讲义已完成上传，本届26讲义请加入实验室获取。

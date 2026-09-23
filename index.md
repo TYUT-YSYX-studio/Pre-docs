@@ -32,7 +32,7 @@ head:
       <h2 class="about-heading">关于本项目</h2>
       <p>
         本作品《太原理工大学"一生一芯"工作室前置讲义》由
-        <strong>许鹏远及之后的接任核心负责人</strong> 主持创作，旨在为先进计算机系统研究实验室的教学工作提供系统支持，并采用<strong>CC BY-SA 4.0</strong> 协议进行授权。
+        <strong>许鹏远及之后的接任核心负责人</strong> 主持创作，旨在为先进计算机系统研究实验室的教学工作提供系统支持，并采用<strong>CC BY-NC-SA 4.0</strong> 协议进行授权。
       </p>
       <p>
         本前置讲义在"一生一芯"计划现有教学内容的基础上，结合太原理工大学的课程培养方案，设计了具有针对性的前置学习路径。讲义内容面向低年级、零基础学生，讲义难度循序渐进，以基础学习为主，降低学习门槛。
@@ -55,11 +55,11 @@ head:
 <section class="license">
   <div class="license-inner">
     <p>
-      本文档遵循 <strong>CC BY-SA 4.0</strong> 开源协议。
+      本文档遵循 <strong>CC BY-NC-SA 4.0</strong> 开源协议。
       转载或使用须标注所有者&ensp;太原理工大学"一生一芯"工作室，并标注该文档的 github 链接；
 	  二次创作请以相同许可协议开源。
     </p>
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank">阅读完整协议 &rarr;</a>
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank">阅读完整协议 &rarr;</a>
   </div>
 </section>
 
